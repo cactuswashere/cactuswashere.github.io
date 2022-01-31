@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;400;600;700;900&display=swap");
+:root {
+  --main-color: #AFE784;
+  --secondary-color:#275502;
+}
+
+ul {
+  list-style-type: none;
+  color: black;
+}
+
+body {
+  padding: 0px;
+  font-family: Poppins, monospace;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 1px;
+  background: #A1D877;
+  position: relative;
+}
+
+.header .webtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--secondary-color);
+  margin: 10px;
+  font-size: 28px;
+  padding: -20px;
+}
+
+.header .weblogo {
+  float: left;
+  margin-top: 3px;
+}
+
+.header nav {
+  display: none;
+}
+
+.hero {
+  padding: 1em;
+  padding-bottom: 20em;
+  background-color: var(--main-color);
+}
+
+.hero .hero-img {
+  display: none;
+}
+
+.hero .hero-header1 {
+  margin-top: 200px;
+  font-weight: 500;
+  font-size: 34.42px;
+}
+
+.hero .hero-header2 {
+  margin-left: -10px;
+  font-weight: bold;
+  font-size: 91.78px;
+  margin-top: -50px;
+}
+
+.hero .hero-header3 {
+  font-weight: 500;
+  font-size: 22.95px;
+  margin-top: -75px;
+}
+
+.hero .hero-footer {
+  margin-top: 50px;
+  font-size: 11.47px;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+
+.hero .hero-button {
+  color: white;
+  background-color: var(--secondary-color);
+  padding: 1em;
+  border-radius: 7%;
+}
+
+.myprojects {
+  margin-left: -50px;
+  padding-bottom: 50px;
+}
+
+.myprojects .projects-header {
+  margin-left: 68px;
+  letter-spacing: 0.5em;
+  font-size: 36px;
+}
+
+.myprojects .project1-card {
+  margin-left: 78px;
+  background: var(--main-color);
+  border-radius: 44px;
+  width: 341px;
+  height: 407px;
+}
+
+.myprojects .project1-card .p1header {
+  font-weight: 800;
+  font-size: 28px;
+  margin-left: 23px;
+}
+
+.myprojects .project1-card .p1para {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px;
+}
+
+.myprojects .project1-card .p1footer {
+  font-weight: 100;
+  font-size: 18px;
+  margin-top: 190px;
+  margin-left: 60px;
+}
+
+.myprojects .project1-card .p1footer-2 {
+  font-weight: 100;
+  font-size: 18px;
+  margin-top: -47px;
+  margin-left: 200px;
+}
+
+.myprojects .project2-card {
+  margin-left: 80px;
+  background: var(--main-color);
+  border-radius: 44px;
+  width: 341px;
+  height: 407px;
+}
+
+.myprojects .project2-card .p2header {
+  font-weight: 800;
+  font-size: 28px;
+  margin-left: 23px;
+}
+
+.myprojects .project2-card .p2para {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px;
+}
+
+.myprojects .project2-card .p2footer {
+  font-weight: 100;
+  font-size: 18px;
+  margin-top: 190px;
+  margin-left: 60px;
+}
+
+.myprojects .project2-card .p2footer-2 {
+  font-weight: 100;
+  font-size: 18px;
+  margin-top: -47px;
+  margin-left: 200px;
+}
+
+.contactme {
+  background-color: var(--main-color);
+  padding: 10px;
+  padding-bottom: 100px;
+}
+
+.contactme .cmheader {
+  font-weight: 800;
+  font-size: 72px;
+  text-align: center;
+}
+
+.contactme .cm-para {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.contactme .cm-info {
+  text-align: center;
+}
+
+.contactme .discord-logo {
+  display: none;
+}
+
+.contactme .email-logo {
+  display: none;
+}
+
+.contactme .discord-info {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.contactme .email-info {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  body .nav-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+        grid-template-columns: 180px auto;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+  body .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    margin-top: -50px;
+  }
+  body .navbar li a {
+    color: white;
+  }
+  body .navbar .home {
+    margin-bottom: 5px;
+    margin-top: -5px;
+    margin-left: 30px;
+  }
+  body .navbar .home:hover {
+    font-weight: bold;
+  }
+  body .navbar .mp {
+    margin-top: -5px;
+    margin-left: 120px;
+    margin-right: 15px;
+  }
+  body .navbar .mp:hover {
+    font-weight: bold;
+  }
+  body .navbar .cu {
+    margin-top: -30px;
+    margin-left: 150px;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  body .navbar .cu:hover {
+    font-weight: bold;
+  }
+  .myprojects .project2-card {
+    margin-left: 450px;
+    margin-top: -430px;
+  }
+  .contactme .discord-logo {
+    display: initial;
+    margin-top: 30px;
+    margin-left: 370px;
+  }
+  .contactme .email-logo {
+    display: initial;
+    margin-left: -72px;
+    margin-bottom: -100px;
+  }
+  .contactme .discord-info {
+    margin-top: 0px;
+  }
+  .contactme .email-info {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .hero .hero-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    margin-top: 150px;
+    margin-right: 45px;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .myprojects .project2-card {
+    margin-left: 500px;
+    margin-top: -429px;
+  }
+  .contactme .discord-logo {
+    margin-top: 70px;
+    margin-left: 300px;
+  }
+  .contactme .email-logo {
+    margin-left: -72px;
+    margin-bottom: -100px;
+  }
+  .contactme .discord-info {
+    margin-top: -50px;
+  }
+  .contactme .email-info {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .hero .hero-header1 {
+    font-size: 35px;
+    margin-top: 200px;
+    margin-left: 68.19px;
+  }
+  .hero .hero-header2 {
+    font-size: 96px;
+    margin-left: 58px;
+  }
+  .hero .hero-header3 {
+    font-size: 23px;
+    margin-left: 68.19px;
+  }
+  .hero .hero-footer {
+    margin-top: 50px;
+    margin-left: 67px;
+  }
+  .hero .hero-button {
+    margin-left: 68.19px;
+    margin-bottom: 135.11px;
+  }
+  .hero .hero-img {
+    float: right;
+    margin-top: 200px;
+    margin-right: 165px;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+
+/* .hero {
+        .hero-img {
+            display:flex;
+            float: right;
+            margin-top: 200px;
+            margin-right: 165px;
+            transform: scale(1.5)
+        }
+
+        .hero-header1 {
+        margin-top:200px;
+        margin-left:68.19px;
+        font-weight: 500;
+        font-size:34.42px;
+    }
+
+    .myprojects {
+    padding-bottom: 50px;
+    .projects-header {
+        margin-left: 68px;
+        letter-spacing:0.5em;
+        font-size:36px;
+    }
+
+    .project1-card {
+        margin-left: 78px;
+        background: var(--main-color);
+        border-radius: 44px;
+        width: 341px;
+        height: 407px;
+
+        .p1header {
+            font-weight:800;
+            font-size:28px;
+            margin-left: 23px;
+        }
+
+        .p1para {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height:27px;
+            padding: 15px;
+        }
+
+        .p1footer {
+            font-weight:100;
+            font-size:18px;
+            margin-top: 190px;
+            margin-left: 60px;
+        }
+
+        .p1footer-2 {
+            font-weight:100;
+            font-size:18px;
+            margin-top: -47px;
+            margin-left: 200px;
+        }
+    }
+
+    .project2-card {
+        margin-left: 500px;
+        margin-top: -429px;
+        background: var(--main-color);
+        border-radius: 44px;
+        width: 341px;
+        height: 407px;
+
+        .p2header {
+            font-weight:800;
+            font-size:28px;
+            margin-left: 23px;
+        }
+
+        .p2para {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height:27px;
+            padding: 15px;
+        }
+
+        .p2footer {
+            font-weight:100;
+            font-size:18px;
+            margin-top: 190px;
+            margin-left: 60px;
+        }
+
+        .p2footer-2 {
+            font-weight:100;
+            font-size:18px;
+            margin-top: -47px;
+            margin-left: 200px;
+        }
+    }
+}
+
+.contactme {
+    background-color: var(--main-color);
+    padding: 10px;
+    padding-bottom:100px;
+    .cmheader {
+        font-weight:800;
+        font-size:72px;
+        text-align: center;
+    }
+
+    .cm-para {
+        text-align: center;
+        font-weight:400;
+        font-size:18px;
+    }
+
+    .discord-logo {
+        margin-top:70px;
+        margin-left: 439px;
+    }
+    .email-logo{
+        margin-left: -72px;
+        margin-bottom: -100px;
+    }
+
+    .cm-info {
+        text-align: center;
+    }
+
+    .discord-info {
+        margin-top: -50px;
+    }
+
+    .email-info {
+        margin-top: 70px;
+    }
+}
+
+    
+    } */
+/*# sourceMappingURL=main.css.map */
